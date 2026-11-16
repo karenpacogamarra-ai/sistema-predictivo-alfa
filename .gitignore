@@ -1,0 +1,21 @@
+# Datos de la empresa: nunca al repositorio
+data/**
+!data/**/
+!data/raw/.gitkeep
+
+# Resultados regenerables
+outputs/
+
+# Monografia y guias (van por Drive, no por el repositorio)
+docs/
+~$*
+
+# Configuracion local de Claude Code
+.claude/
+CLAUDE.md
+
+# Entorno y caches
+.venv/
+__pycache__/
+.ipynb_checkpoints/
+.pytest_cache/
